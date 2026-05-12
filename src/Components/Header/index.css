@@ -1,0 +1,26 @@
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.link-decoration {
+  text-decoration: none;
+  color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #87cefa;
+  height: 3vh;
+  align-items: center;
+}
+.menucontainer {
+  width: 40%;
+}
+
+@media (max-width: 700px) {
+  .menu-list {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.homeimage {
+  width: 50%;
+  height: 60%;
+}
+.maincontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.subhomecontainer {
+  width: 500px;
+}

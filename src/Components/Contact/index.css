@@ -1,0 +1,15 @@
+.liststyle {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ulstyling {
+  width: 400px;
+}
+.maincontainerforcontact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+}

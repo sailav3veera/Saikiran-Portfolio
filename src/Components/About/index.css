@@ -14,7 +14,7 @@
 
 .timeline {
   position: relative;
-  max-width: 800px;
+  width: 50vw;
   margin: auto;
 }
 
@@ -69,9 +69,9 @@
 .certificatesbox {
   background-color: #1e293b;
   border-radius: 20px;
-  height: 30vh;
+  height: 50vh;
   margin-top: 200px;
-  min-width: 350px;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

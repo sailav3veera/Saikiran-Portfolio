@@ -1,0 +1,9 @@
+.formdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 50vw;
+  align-items: center;
+  padding-top: 250px;
+}

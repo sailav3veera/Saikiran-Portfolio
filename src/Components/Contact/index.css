@@ -8,8 +8,13 @@
   width: 400px;
 }
 .maincontainerforcontact {
-  width: 100%;
+  width: 50vw;
   display: flex;
   justify-content: center;
   padding-top: 250px;
+}
+.forms {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

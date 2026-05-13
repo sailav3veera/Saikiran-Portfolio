@@ -11,3 +11,14 @@
 .subhomecontainer {
   width: 500px;
 }
+.knowmorebutton {
+  background-color: #87cefa;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+.knowmorebutton:hover {
+  background-color: #1e90ff;
+  outline: auto;
+}

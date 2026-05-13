@@ -11,12 +11,13 @@
 }
 .buttonnotfound {
   background-color: #87cefa;
+  color: white;
   border: none;
   width: 200px;
   height: 50px;
   border-radius: 20px;
 }
 .buttonnotfound:hover {
-  background-color: #1e90ff ;
+  background-color: #1e90ff;
   outline: auto;
 }

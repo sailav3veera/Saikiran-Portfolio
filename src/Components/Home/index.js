@@ -3,6 +3,9 @@ import "./index.css";
 import { Link } from "react-router-dom";
 
 class Home extends Component {
+  onclickbutton = () => {
+    alert("Thanks for taking an interest in getting to know me better!");
+  };
   render() {
     return (
       <div className="maincontainer">
@@ -10,7 +13,9 @@ class Home extends Component {
           <h1>Hi, I'm Sai kiran Veera</h1>
           <p>I am a web developer</p>
           <Link to="/about">
-            <button className="knowmorebutton">Know More</button>
+            <button className="knowmorebutton" onClick={this.onclickbutton}>
+              Know More
+            </button>
           </Link>
         </div>
         <img

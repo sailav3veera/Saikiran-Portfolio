@@ -6,6 +6,7 @@ class Home extends Component {
   onclickbutton = () => {
     alert("Thanks for taking an interest in getting to know me better!");
   };
+
   render() {
     return (
       <div className="maincontainer">

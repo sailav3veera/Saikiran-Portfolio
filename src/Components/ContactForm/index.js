@@ -34,6 +34,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} className="formdetails">
+      <h1>Please log your query here...</h1>
       <input type="text" name="name" placeholder="Name" required />
 
       <input type="email" name="email" placeholder="Email" required />

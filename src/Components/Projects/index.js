@@ -54,7 +54,7 @@ class Projects extends Component {
             </div>
           </div>
           <button
-            className="carousel-control-prev"
+            className="carousel-control-prev "
             type="button"
             data-bs-target="#carouselExampleAutoplaying"
             data-bs-slide="prev"

@@ -1,0 +1,22 @@
+.slideshowimages {
+  width: 100%;
+}
+.maincon {
+  width: 60%;
+}
+.pojectscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.imagecontainer {
+  text-align: center;
+}
+.buttonproject {
+  margin: 20px;
+  background-image: linear-gradient(to right, #add8e6, white, #ff6347);
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+}

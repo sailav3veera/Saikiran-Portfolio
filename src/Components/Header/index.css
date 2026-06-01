@@ -12,8 +12,9 @@
   justify-content: space-between;
   padding: 19px;
   background-color: #87cefa;
-  height: 3vh;
+  height: 7vh;
   align-items: center;
+  margin-bottom: 20px;
 }
 .menucontainer {
   width: 40%;

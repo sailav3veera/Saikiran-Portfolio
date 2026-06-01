@@ -4,7 +4,9 @@ import Header from "./Components/Header";
 import NotFound from "./Components/NotFound";
 import { Routes, BrowserRouter, Route, Navigate } from "react-router-dom";
 import About from "./Components/About";
-import Contact from "./Components/Contact";
+//import Contact from "./Components/Contact";
+//<Route path="/contact" element={<Contact />} />
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/PageNotFound" element={<NotFound />} />
         <Route path="*" element={<Navigate to="/PageNotFound" />} />
       </Routes>
